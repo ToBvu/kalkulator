@@ -1,0 +1,25 @@
+# nie wiedzialem jak zrobic w pierwiastku zeby nie prosilo o input w zmiennej c wiec zostawilem jak jest
+import math
+a = int(input())
+b = (input())
+c = int(input()) 
+
+
+if b == "+":
+    d = a + c
+    print(d)
+elif b == "-":
+    d = a - c
+    print(d)
+elif b == "*":
+    d = a * c
+    print(d)
+elif b == ":":
+    d = a / c
+    print(d)
+elif b == "^":
+    d = math.pow(a, c)
+    print(d)
+elif b == "&":
+    d = math.sqrt(a)
+    print(d)
